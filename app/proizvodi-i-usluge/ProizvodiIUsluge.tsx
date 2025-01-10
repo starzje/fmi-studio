@@ -133,7 +133,9 @@ function SearchParamsHandler() {
         </div>
       </div>
       {/* Page content */}
-      <div className="px-4">{renderCards()}</div>
+      <div data-aos="fade-up" data-aos-delay="100" className="px-4">
+        {renderCards()}
+      </div>
     </div>
   );
 }

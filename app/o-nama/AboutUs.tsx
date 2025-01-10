@@ -6,9 +6,14 @@ const AboutUsPage: React.FC = () => {
     <div className="mt-28 max-w-6xl mx-auto px-6 sm:px-6 mb-24">
       <div className="mb-5">
         {/* Title */}
-        <h1 className="text-2xl md:text-3xl text-gray-800 text-center font-bold">O nama</h1>
+        <h1
+          data-aos="fade-right"
+          data-aos-delay="100"
+          className="text-2xl md:text-3xl text-gray-800 text-center font-bold">
+          O nama
+        </h1>
       </div>
-      <div className="space-y-8 flex justify-center">
+      <div data-aos="fade-right" data-aos-delay="200" className="space-y-8 flex justify-center">
         <div className="max-w-4xl text-left text-gray-600">
           <p className="text-sm py-3">
             Dobrodošli na službenu web stranicu F.M.I. d.o.o., vašeg pouzdanog partnera za grafički dizajn i tisak!

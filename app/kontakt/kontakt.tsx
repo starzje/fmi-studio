@@ -36,12 +36,9 @@ export default function ContactPage() {
   });
 
   const onSubmit = (data: any) => {
-    const serviceId = "test";
-    const templateId = "test";
-    const userId = "test";
-    // const serviceId = "service_4423njb";
-    // const templateId = "template_mp1ccrt";
-    // const userId = "58llVOwbudJ1xJl3C";
+    const serviceId = "service_p7hmjnx";
+    const templateId = "template_wulqkud";
+    const userId = "yWXXewF2xwBtvdQ7S";
 
     const templateParams = {
       user_name: data.ime,
@@ -85,11 +82,14 @@ export default function ContactPage() {
       <div className="mt-28 max-w-6xl mx-auto px-6 sm:px-6 mb-24">
         <div className="mb-5">
           {/* Title */}
-          <h1 className="text-2xl md:text-3xl text-gray-800 text-center font-bold">
+          <h1
+            data-aos="fade-right"
+            data-aos-delay="100"
+            className="text-2xl md:text-3xl text-gray-800 text-center font-bold">
             Želite više informacija o našim proizvodima i uslugama?
           </h1>
         </div>
-        <div className="space-y-8 flex justify-center">
+        <div data-aos="fade-right" data-aos-delay="200" className="space-y-8 flex justify-center">
           <div className="max-w-4xl text-center text-gray-600">
             <p className="text-lg py-3 pb-5">
               Pošaljite nam upit sa detaljnim opisom proizvoda i usluga koje Vas zanimaju, a mi ćemo Vam se javiti
@@ -98,7 +98,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="flex md:flex-row flex-col justify-center gap-8 ">
-          <form onSubmit={handleSubmit(onSubmit)} noValidate>
+          <form data-aos="fade-right" data-aos-delay="300" onSubmit={handleSubmit(onSubmit)} noValidate>
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-medium mb-1" htmlFor="email">
@@ -239,17 +239,17 @@ export default function ContactPage() {
               </>
             </div>
           </form>
-          <div className="block md:hidden relative h-2">
+          <div data-aos="fade" data-aos-delay="350" className="block md:hidden relative h-2">
             <div className="absolute inset-0">
               <div className="h-0.5 mx-auto w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
             </div>
           </div>
-          <div className="hidden md:block relative w-2">
+          <div data-aos="fade" data-aos-delay="350" className="hidden md:block relative w-2">
             <div className="absolute inset-0 flex items-center">
               <div className="w-0.5 h-full bg-gradient-to-b from-transparent via-gray-200 to-transparent"></div>
             </div>
           </div>
-          <div className="text-gray-600">
+          <div data-aos="fade-right" data-aos-delay="400" className="text-gray-600">
             <h4 className="font-bold pt-4">F.M.I. d.o.o.</h4>
 
             <h4 className="font-bold pt-4">Adresa:</h4>
