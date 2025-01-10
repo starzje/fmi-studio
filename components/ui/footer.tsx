@@ -94,7 +94,7 @@ export default function Footer() {
                 </li>
                 <li className=" py-1">
                   <Link
-                    href="/ntakt"
+                    href="/kontakt"
                     className={`flex items-center transition ${
                       isActive("/kontakt")
                         ? "text-blue-500  font-medium"

@@ -108,10 +108,12 @@ export default function ProizvodiIUslugePage() {
       <div className="bg-white p-4 rounded-2xl shadow-lg shadow-black/[0.03] backdrop-blur-sm">
         <div className="mb-5 ">
           {/* Title */}
-          <h1 className="text-2xl md:text-3xl text-gray-800  font-bold">Proizvodi i usluge</h1>
+          <h1 data-aos="fade-right" data-aos-delay="100" className="text-2xl md:text-3xl text-gray-800  font-bold">
+            Proizvodi i usluge
+          </h1>
         </div>
         {/* Filters */}
-        <div className=" ">
+        <div data-aos="fade-right" data-aos-delay="200" className=" ">
           <ul className="text-sm font-medium flex flex-nowrap -mx-4 sm:-mx-6 lg:-mx-8 overflow-x-scroll no-scrollbar">
             {categories.map(({ id, label }) => (
               <li

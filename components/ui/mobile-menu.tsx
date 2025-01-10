@@ -87,7 +87,7 @@ export default function MobileMenu() {
               <Link
                 href="/"
                 className={`flex rounded-lg px-2 py-1.5 hover:bg-gray-100 ${
-                  isActive("/") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                  isActive("/") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setMobileNavOpen(false)}>
                 Početna
@@ -99,7 +99,7 @@ export default function MobileMenu() {
                 className={`flex rounded-lg px-2 py-1.5 hover:bg-gray-100 ${
                   isActive("/proizvodi-i-usluge")
                     ? "text-blue-500 font-medium"
-                    : "font-light text-gray-700 hover:text-blue-500"
+                    : "font-light text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setMobileNavOpen(false)}>
                 Proizvodi i usluge
@@ -109,7 +109,7 @@ export default function MobileMenu() {
               <Link
                 href="/o-nama"
                 className={`flex rounded-lg px-2 py-1.5 hover:bg-gray-100 ${
-                  isActive("/o-nama") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                  isActive("/o-nama") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setMobileNavOpen(false)}>
                 O nama
@@ -119,7 +119,7 @@ export default function MobileMenu() {
               <Link
                 href="/kontakt"
                 className={`flex rounded-lg px-2 py-1.5 hover:bg-gray-100 ${
-                  isActive("/kontakt") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                  isActive("/kontakt") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-gray-900"
                 }`}
                 onClick={() => setMobileNavOpen(false)}>
                 Kontakt
