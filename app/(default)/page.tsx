@@ -13,6 +13,7 @@ import Faqs from "@/components/faqs";
 import Blog from "@/components/blog";
 import Cta from "@/components/cta";
 import About from "@/components/about";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,6 +23,13 @@ export default function Home() {
       {/* <Creatives />
       <Pricing />
       <Testimonials /> */}
+      <div className=" bg-gray-50 flex justify-center pt-12">
+        <Link
+          className="btn rounded-lg text-white bg-blue-500 hover:bg-blue-600  shadow-sm"
+          href="/proizvodi-i-usluge?category=sve-usluge">
+          Pogledaj sve usluge
+        </Link>
+      </div>
       <About />
       <Faqs />
       {/* <Blog /> */}

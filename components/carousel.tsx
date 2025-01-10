@@ -2,32 +2,12 @@
 
 import { useEffect } from "react";
 import Image from "next/image";
-import Carousel01 from "@/public/images/carousel-01.jpg";
-import Carousel02 from "@/public/images/carousel-02.jpg";
-import Carousel03 from "@/public/images/carousel-03.jpg";
-import Carousel04 from "@/public/images/carousel-04.jpg";
-import Carousel05 from "@/public/images/carousel-05.jpg";
-import Carousel06 from "@/public/images/carousel-06.jpg";
-import Carousel07 from "@/public/images/carousel-07.jpg";
-import Carousel08 from "@/public/images/carousel-08.jpg";
-import Avatar01 from "@/public/images/carousel-avatar-01.jpg";
-import Avatar02 from "@/public/images/carousel-avatar-02.jpg";
-import Avatar03 from "@/public/images/carousel-avatar-03.jpg";
-import Avatar04 from "@/public/images/carousel-avatar-04.jpg";
-import Avatar05 from "@/public/images/carousel-avatar-05.jpg";
-import Avatar06 from "@/public/images/carousel-avatar-06.jpg";
-import Avatar07 from "@/public/images/carousel-avatar-07.jpg";
-import Avatar08 from "@/public/images/carousel-avatar-08.jpg";
-import Avatar09 from "@/public/images/carousel-avatar-09.jpg";
-import Avatar10 from "@/public/images/carousel-avatar-10.jpg";
-import Avatar11 from "@/public/images/carousel-avatar-11.jpg";
-import Avatar12 from "@/public/images/carousel-avatar-12.jpg";
-import Avatar13 from "@/public/images/carousel-avatar-13.jpg";
-import Avatar14 from "@/public/images/carousel-avatar-14.jpg";
-import Avatar15 from "@/public/images/carousel-avatar-15.jpg";
-import Avatar16 from "@/public/images/carousel-avatar-16.jpg";
-import Avatar17 from "@/public/images/carousel-avatar-17.jpg";
-import Avatar18 from "@/public/images/carousel-avatar-18.jpg";
+import Carousel01 from "@/public/images/7.png";
+import Carousel02 from "@/public/images/6.png";
+import Carousel03 from "@/public/images/1.png";
+import Carousel04 from "@/public/images/13.png";
+import Carousel05 from "@/public/images/2.png";
+import Carousel06 from "@/public/images/3.png";
 
 // Import Swiper
 import Swiper, { Navigation } from "swiper";
@@ -106,7 +86,7 @@ export default function Carousel() {
                 {/* Image */}
                 <Image
                   className="w-full aspect-[7/4] object-cover rounded-t-lg"
-                  src={Carousel01}
+                  src={Carousel02}
                   width={259}
                   height={148}
                   alt="Carousel 01"
@@ -132,7 +112,7 @@ export default function Carousel() {
                 {/* Image */}
                 <Image
                   className="w-full aspect-[7/4] object-cover rounded-t-lg"
-                  src={Carousel01}
+                  src={Carousel03}
                   width={259}
                   height={148}
                   alt="Carousel 01"
@@ -158,7 +138,7 @@ export default function Carousel() {
                 {/* Image */}
                 <Image
                   className="w-full aspect-[7/4] object-cover rounded-t-lg"
-                  src={Carousel01}
+                  src={Carousel04}
                   width={259}
                   height={148}
                   alt="Carousel 01"
@@ -184,7 +164,7 @@ export default function Carousel() {
                 {/* Image */}
                 <Image
                   className="w-full aspect-[7/4] object-cover rounded-t-lg"
-                  src={Carousel01}
+                  src={Carousel05}
                   width={259}
                   height={148}
                   alt="Carousel 01"
@@ -210,7 +190,7 @@ export default function Carousel() {
                 {/* Image */}
                 <Image
                   className="w-full aspect-[7/4] object-cover rounded-t-lg"
-                  src={Carousel01}
+                  src={Carousel06}
                   width={259}
                   height={148}
                   alt="Carousel 01"

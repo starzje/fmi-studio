@@ -52,7 +52,7 @@ export default function Hero() {
             </div>
             {/* Image */}
             <div
-              className="max-w-sm mx-auto md:max-w-none md:absolute md:left-[40rem] md:ml-16 lg:ml-32 xl:ml-52 mt-12 md:-mt-12"
+              className="max-w-sm mx-auto md:max-w-none md:absolute md:left-[40rem] md:ml-16 lg:ml-32 xl:ml-52 mt-12 md:-mt-12 hidden md:block"
               data-aos="fade-left"
               data-aos-duration="1100">
               <Image

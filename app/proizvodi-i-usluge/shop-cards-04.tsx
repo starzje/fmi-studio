@@ -1,8 +1,8 @@
 import Image from "next/image";
-import AppImage13 from "@/public/images/blog-01.jpg";
-import AppImage14 from "@/public/images/blog-01.jpg";
-import AppImage15 from "@/public/images/blog-01.jpg";
-import AppImage16 from "@/public/images/blog-01.jpg";
+import AppImage13 from "@/public/images/12.png";
+import AppImage14 from "@/public/images/13.png";
+import AppImage15 from "@/public/images/14.png";
+import AppImage16 from "@/public/images/15.png";
 import Link from "next/link";
 export default function ShopCards04() {
   return (
@@ -50,7 +50,7 @@ export default function ShopCards04() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage13} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage14} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
@@ -89,7 +89,7 @@ export default function ShopCards04() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage13} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage15} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
@@ -128,7 +128,7 @@ export default function ShopCards04() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage13} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage16} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}

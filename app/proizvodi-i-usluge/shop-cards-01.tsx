@@ -1,8 +1,10 @@
 import Image from "next/image";
-import AppImage01 from "@/public/images/blog-01.jpg";
-import AppImage02 from "@/public/images/blog-01.jpg";
-import AppImage03 from "@/public/images/blog-01.jpg";
-import AppImage04 from "@/public/images/blog-01.jpg";
+import AppImage01 from "@/public/images/0.png";
+import AppImage02 from "@/public/images/1.png";
+import AppImage03 from "@/public/images/2.png";
+import AppImage04 from "@/public/images/3.png";
+import AppImage05 from "@/public/images/4.png";
+import AppImage06 from "@/public/images/5.png";
 import Link from "next/link";
 
 export default function ShopCards01() {
@@ -57,7 +59,7 @@ export default function ShopCards01() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage01} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage02} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
@@ -102,7 +104,7 @@ export default function ShopCards01() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage01} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage03} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
@@ -147,7 +149,7 @@ export default function ShopCards01() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage01} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage04} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
@@ -192,7 +194,7 @@ export default function ShopCards01() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage01} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage05} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
@@ -243,7 +245,7 @@ export default function ShopCards01() {
       <div className="col-span-full sm:col-span-6 xl:col-span-3 bg-white  shadow-sm rounded-xl overflow-hidden">
         <div className="flex flex-col h-full">
           {/* Image */}
-          <Image className="w-full" src={AppImage01} width={286} height={160} alt="Application 01" />
+          <Image className="w-full" src={AppImage06} width={286} height={160} alt="Application 01" />
           {/* Card Content */}
           <div className="grow flex flex-col p-5">
             {/* Card body */}
