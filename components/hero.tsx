@@ -30,14 +30,14 @@ export default function Hero() {
                 <div>
                   <Link
                     className="btn rounded-lg text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                    href="/signup">
+                    href="/proizvodi-i-usluge?category=sve-usluge">
                     Usluge koje nudimo
                   </Link>
                 </div>
                 <div>
                   <Link
                     className="btn rounded-lg text-gray-600 bg-white hover:bg-blue-100 hover:text-blue-600 w-full shadow-sm"
-                    href="/signin">
+                    href="/kontakt">
                     Kontaktiraj nas
                   </Link>
                 </div>

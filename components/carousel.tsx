@@ -96,7 +96,7 @@ export default function Carousel() {
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                      href="/signup">
+                      href="/kontakt">
                       Pošalji upit
                     </Link>
                   </div>
@@ -117,12 +117,12 @@ export default function Carousel() {
                   <a
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
                     href="#0">
-                    Brošure i katalozi
+                    Vizitke
                   </a>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                      href="/signup">
+                      href="/kontakt">
                       Pošalji upit
                     </Link>
                   </div>
@@ -148,7 +148,7 @@ export default function Carousel() {
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                      href="/signup">
+                      href="/kontakt">
                       Pošalji upit
                     </Link>
                   </div>
@@ -174,7 +174,7 @@ export default function Carousel() {
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                      href="/signup">
+                      href="/kontakt">
                       Pošalji upit
                     </Link>
                   </div>
@@ -200,7 +200,7 @@ export default function Carousel() {
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                      href="/signup">
+                      href="/kontakt">
                       Pošalji upit
                     </Link>
                   </div>
@@ -226,7 +226,7 @@ export default function Carousel() {
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                      href="/signup">
+                      href="/kontakt">
                       Pošalji upit
                     </Link>
                   </div>

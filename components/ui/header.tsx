@@ -20,43 +20,41 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop menu links */}
-            <ul className="flex grow flex-wrap  items-center justify-end gap-4 text-sm lg:gap-8">
-              <li className="px-3 py-1">
+            <ul className="flex grow flex-wrap  items-center justify-end gap-2 text-sm lg:gap-8">
+              <li className="px-1 py-1">
                 <Link
                   href="/"
                   className={`flex items-center transition ${
-                    isActive("/") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                    isActive("/") ? "text-blue-500 font-medium" : "font-light text-gray-500 hover:text-gray-700"
                   }`}>
                   Početna
                 </Link>
               </li>
-              <li className="px-3 py-1">
+              <li className="px-1 py-1">
                 <Link
-                  href="/customers"
+                  href="/proizvodi-i-usluge?category=sve-usluge"
                   className={`flex items-center transition ${
-                    isActive("/customers")
+                    isActive("/proizvodi-i-usluge")
                       ? "text-blue-500 font-medium"
-                      : "font-light text-gray-700 hover:text-blue-500"
+                      : "font-light text-gray-500 hover:text-gray-700"
                   }`}>
                   Proizvodi i usluge
                 </Link>
               </li>
-              <li className="px-3 py-1">
+              <li className="px-1 py-1">
                 <Link
-                  href="/blog"
+                  href="/o-nama"
                   className={`flex items-center transition ${
-                    isActive("/blog") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                    isActive("/o-nama") ? "text-blue-500 font-medium" : "font-light text-gray-500 hover:text-gray-700"
                   }`}>
                   O nama
                 </Link>
               </li>
-              <li className="px-3 py-1">
+              <li className="px-1 py-1">
                 <Link
-                  href="/documentation"
+                  href="/kontakt"
                   className={`flex items-center transition ${
-                    isActive("/documentation")
-                      ? "text-blue-500  font-medium"
-                      : "font-light text-gray-700 hover:text-blue-500"
+                    isActive("/kontakt") ? "text-blue-500  font-medium" : "font-light text-gray-500 hover:text-gray-700"
                   }`}>
                   Kontakt
                 </Link>

@@ -29,7 +29,7 @@ export default function Cta() {
               <div className="shrink-0">
                 <Link
                   className="btn rounded-lg text-white font-semibold bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
-                  href="/signup">
+                  href="/kontakt">
                   Kontaktiraj nas
                 </Link>
               </div>

@@ -22,11 +22,11 @@ export default function Footer() {
             </div>
             <form className="w-full max-w-sm">
               <div className="flex flex-col sm:flex-row justify-end max-w-xs mx-auto sm:max-w-none">
-                <button
+                <Link
                   className="btn-sm rounded-xl text-white bg-blue-500 hover:bg-blue-600 shadow-sm whitespace-nowrap"
-                  type="submit">
+                  href="/kontakt">
                   Kontaktiraj nas
-                </button>
+                </Link>
               </div>
               {/* Success message */}
               {/* <p class="font-medium text-emerald-600 text-center sm:text-left sm:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
@@ -60,38 +60,38 @@ export default function Footer() {
                   <Link
                     href="/"
                     className={`flex items-center transition ${
-                      isActive("/") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                      isActive("/") ? "text-blue-500 font-medium" : "font-light text-gray-500 hover:text-gray-700"
                     }`}>
                     Početna
                   </Link>
                 </li>
                 <li className=" py-1">
                   <Link
-                    href="/customers"
+                    href="/proizvodi-i-usluge?category=sve-usluge"
                     className={`flex items-center transition ${
-                      isActive("/customers")
+                      isActive("/proizvodi-i-usluge")
                         ? "text-blue-500 font-medium"
-                        : "font-light text-gray-700 hover:text-blue-500"
+                        : "font-light text-gray-500 hover:text-gray-700"
                     }`}>
                     Proizvodi i usluge
                   </Link>
                 </li>
                 <li className=" py-1">
                   <Link
-                    href="/blog"
+                    href="/o-nama"
                     className={`flex items-center transition ${
-                      isActive("/blog") ? "text-blue-500 font-medium" : "font-light text-gray-700 hover:text-blue-500"
+                      isActive("/o-nama") ? "text-blue-500 font-medium" : "font-light text-gray-500 hover:text-gray-700"
                     }`}>
                     O nama
                   </Link>
                 </li>
                 <li className=" py-1">
                   <Link
-                    href="/documentation"
+                    href="/kontakt"
                     className={`flex items-center transition ${
-                      isActive("/documentation")
+                      isActive("/kontakt")
                         ? "text-blue-500  font-medium"
-                        : "font-light text-gray-700 hover:text-blue-500"
+                        : "font-light text-gray-500 hover:text-gray-700"
                     }`}>
                     Kontakt
                   </Link>
