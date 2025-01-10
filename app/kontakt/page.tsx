@@ -2,7 +2,7 @@ import ContactPage from "./kontakt";
 
 export const metadata = {
   title: "Studio F.M.I. - Kontakt",
-  description: "Grafički dizajn, tisak, i još puno toga.",
+  description: "Kontaktirajte nas putem obrasca ili telefona.",
 };
 
 export default function Kontakt() {

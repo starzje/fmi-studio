@@ -1,6 +1,24 @@
 export const metadata = {
   title: "Studio F.M.I. - Početna",
   description: "Grafički dizajn, tisak, i još puno toga.",
+  openGraph: {
+    title: "Studio F.M.I. - Grafički dizajn i tisak",
+    description: "Profesionalni dizajn i usluge tiska.",
+    siteName: "Studio F.M.I.",
+    locale: "hr_HR",
+    type: "website",
+    url: "https://www.studio-fmi.hr",
+    metadataBase: new URL("https://www.studio-fmi.hr"),
+    images: [
+      {
+        url: "https://www.studio-fmi.hr/images/website-screenshot.png",
+        width: 1200,
+        height: 630,
+        alt: "Studio F.M.I. website",
+      },
+    ],
+    keywords: ["grafički dizajn", "tisak", "Studio F.M.I.", "dizajn u Zagrebu", "print studio"],
+  },
 };
 
 import Hero from "@/components/hero";

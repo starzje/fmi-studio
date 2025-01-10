@@ -1,6 +1,11 @@
 import Cta from "@/components/cta";
 import React from "react";
 
+export const metadata = {
+  title: "Studio F.M.I. - Uvjeti korištenja i pravila privatnosti",
+  description: "Pravila privatnosti i uvjeti korištenja Studio F.M.I. web stranice.",
+};
+
 const CookiesPage: React.FC = () => {
   return (
     <div className="mt-28 max-w-6xl mx-auto px-6 sm:px-6 mb-24">

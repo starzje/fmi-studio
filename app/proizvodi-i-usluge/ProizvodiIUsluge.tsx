@@ -114,7 +114,7 @@ function SearchParamsHandler() {
           </h1>
         </div>
         {/* Filters */}
-        <div data-aos="fade-right" data-aos-delay="200" className=" ">
+        <div data-aos="fade-right" data-aos-delay="100" className=" ">
           <ul className="text-sm font-medium flex flex-nowrap -mx-4 sm:-mx-6 lg:-mx-8 overflow-x-scroll no-scrollbar">
             {categories.map(({ id, label }) => (
               <li
@@ -133,7 +133,7 @@ function SearchParamsHandler() {
         </div>
       </div>
       {/* Page content */}
-      <div data-aos="fade-up" data-aos-delay="100" className="px-4">
+      <div data-aos="fade-up" data-aos-delay="200" className="px-4">
         {renderCards()}
       </div>
     </div>

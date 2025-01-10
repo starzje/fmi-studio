@@ -2,7 +2,7 @@ import ProizvodiIUslugePage from "./ProizvodiIUsluge";
 
 export const metadata = {
   title: "Studio F.M.I. - Proizvodi i usluge",
-  description: "Grafički dizajn, tisak, i još puno toga.",
+  description: "Pogledajte našu ponudu proizvoda i usluga.",
 };
 
 export default function ProizvodiIUsluge() {
