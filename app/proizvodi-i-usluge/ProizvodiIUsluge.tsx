@@ -38,7 +38,7 @@ function SearchParamsHandler() {
       case "promotivni-materijali":
         return (
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-5">Promotivni Materijali</h2>
+            <h2 className="text-xl  text-gray-800  font-bold mb-5">Promotivni Materijali</h2>
             <div className="grid grid-cols-12 gap-6">
               <ShopCards01 />
             </div>
@@ -47,7 +47,7 @@ function SearchParamsHandler() {
       case "tiskani-materijali":
         return (
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-5">Tiskani Materijali</h2>
+            <h2 className="text-xl  text-gray-800  font-bold mb-5">Tiskani Materijali</h2>
             <div className="grid grid-cols-12 gap-6">
               <ShopCards02 />
             </div>
@@ -56,7 +56,7 @@ function SearchParamsHandler() {
       case "reklamne-povrsine":
         return (
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-5">Reklamne Površine i Oprema</h2>
+            <h2 className="text-xl  text-gray-800  font-bold mb-5">Reklamne Površine i Oprema</h2>
             <div className="grid grid-cols-12 gap-6">
               <ShopCards03 />
             </div>
@@ -65,7 +65,7 @@ function SearchParamsHandler() {
       case "naljepnice-i-grafika":
         return (
           <div className="mt-8">
-            <h2 className="text-xl font-bold mb-5">Naljepnice i Grafika</h2>
+            <h2 className="text-xl  text-gray-800  font-bold mb-5">Naljepnice i Grafika</h2>
             <div className="grid grid-cols-12 gap-6">
               <ShopCards04 />
             </div>
@@ -75,25 +75,25 @@ function SearchParamsHandler() {
         return (
           <>
             <div className="mt-8">
-              <h2 className="text-xl font-bold mb-5">Promotivni Materijali</h2>
+              <h2 className="text-xl  text-gray-800  font-bold mb-5">Promotivni Materijali</h2>
               <div className="grid grid-cols-12 gap-6">
                 <ShopCards01 />
               </div>
             </div>
             <div className="mt-8">
-              <h2 className="text-xl font-bold mb-5">Tiskani Materijali</h2>
+              <h2 className="text-xl  text-gray-800  font-bold mb-5">Tiskani Materijali</h2>
               <div className="grid grid-cols-12 gap-6">
                 <ShopCards02 />
               </div>
             </div>
             <div className="mt-8">
-              <h2 className="text-xl font-bold mb-5">Reklamne Površine i Oprema</h2>
+              <h2 className="text-xl  text-gray-800  font-bold mb-5">Reklamne Površine i Oprema</h2>
               <div className="grid grid-cols-12 gap-6">
                 <ShopCards03 />
               </div>
             </div>
             <div className="mt-8">
-              <h2 className="text-xl font-bold mb-5">Naljepnice i Grafika</h2>
+              <h2 className="text-xl  text-gray-800  font-bold mb-5">Naljepnice i Grafika</h2>
               <div className="grid grid-cols-12 gap-6">
                 <ShopCards04 />
               </div>
@@ -104,23 +104,36 @@ function SearchParamsHandler() {
   };
 
   return (
-    <div className="mt-28 max-w-6xl mx-auto px-6 sm:px-6 mb-24">
+    <div className="mt-28 max-w-6xl mx-auto px-6 sm:px-6 mb-24 ">
       {/* Page header */}
-      <div className="bg-white p-4 rounded-2xl shadow-lg">
-        <h1 className="text-2xl md:text-3xl font-bold">Proizvodi i usluge</h1>
-        <div className="flex mt-4">
-          {categories.map(({ id, label }) => (
-            <button
-              key={id}
-              onClick={() => handleFilterClick(id)}
-              className={`mr-4 ${category === id ? "text-blue-500 underline" : "text-gray-500 hover:text-gray-600"}`}>
-              {label}
-            </button>
-          ))}
+      <div className="bg-white p-4 rounded-2xl shadow-lg shadow-black/[0.03] backdrop-blur-sm">
+        <div className="mb-5 ">
+          {/* Title */}
+          <h1 data-aos="fade-right" data-aos-delay="100" className="text-2xl md:text-3xl text-gray-800  font-bold">
+            Proizvodi i usluge
+          </h1>
+        </div>
+        {/* Filters */}
+        <div data-aos="fade-right" data-aos-delay="200" className=" ">
+          <ul className="text-sm font-medium flex flex-nowrap -mx-4 sm:-mx-6 lg:-mx-8 overflow-x-scroll no-scrollbar">
+            {categories.map(({ id, label }) => (
+              <li
+                key={id}
+                className="pb-3 mr-6 last:mr-0 first:pl-4 sm:first:pl-6 lg:first:pl-8 last:pr-4 sm:last:pr-6 lg:last:pr-8">
+                <button
+                  className={`${
+                    category === id ? "text-blue-500 " : "text-gray-500 hover:text-gray-600"
+                  } whitespace-nowrap font-medium`}
+                  onClick={() => handleFilterClick(id)}>
+                  {label}
+                </button>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-      {/* Render content */}
-      <div>{renderCards()}</div>
+      {/* Page content */}
+      <div className="px-4">{renderCards()}</div>
     </div>
   );
 }
