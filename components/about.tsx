@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <section className="bg-gray-50">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 border-b border-gray-100">
         <div className="py-12 md:py-12 ">
           {/* Section header */}
           <div className="pb-12 md:pb-12">

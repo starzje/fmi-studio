@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default function Cta() {
   return (
-    <section>
+    <section className="bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-8">
+        <div className="py-8 md:py-14">
           {/* CTA box */}
           <div className="relative py-12 px-8 md:py-20 md:px-12">
             {/* Dark box */}
-            <div className="absolute inset-0 bg-gray-800 -rotate-2 -z-10" aria-hidden="true" />
+            <div className="absolute inset-0 bg-gray-800 -rotate-2 " aria-hidden="true" />
             <div className="flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
-              <div className="relative mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
+              <div className="relative mb-6 z-10 lg:mr-16 lg:mb-0 text-center lg:text-left">
                 <svg
                   className="absolute left-0 bottom-full mb-4"
                   width="82"
@@ -26,7 +26,7 @@ export default function Cta() {
                 <h3 className="h2 font-cabinet-grotesk text-gray-100">Vaš partner za dizajn, tisak i promociju</h3>
               </div>
               {/* CTA button */}
-              <div className="shrink-0">
+              <div className="shrink-0 relative z-10">
                 <Link
                   className="btn rounded-lg text-white font-semibold bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
                   href="/kontakt">

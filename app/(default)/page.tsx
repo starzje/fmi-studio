@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Creative",
-  description: "Page description",
+  title: "Studio F.M.I. - Početna",
+  description: "Grafički dizajn, tisak, i još puno toga.",
 };
 
 import Hero from "@/components/hero";

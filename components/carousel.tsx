@@ -88,11 +88,11 @@ export default function Carousel() {
                 {/* White box */}
                 <div className="grow rounded-b-lg bg-white px-4 pb-6">
                   {/* Title */}
-                  <a
+                  <Link
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
-                    href="#0">
+                    href="/proizvodi-i-usluge?category=tiskani-materijali">
                     Brošure i katalozi
-                  </a>
+                  </Link>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
@@ -114,11 +114,11 @@ export default function Carousel() {
                 {/* White box */}
                 <div className="grow rounded-b-lg bg-white px-4 pb-6">
                   {/* Title */}
-                  <a
+                  <Link
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
-                    href="#0">
+                    href="/proizvodi-i-usluge?category=tiskani-materijali">
                     Vizitke
-                  </a>
+                  </Link>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
@@ -140,11 +140,11 @@ export default function Carousel() {
                 {/* White box */}
                 <div className="grow rounded-b-lg bg-white px-4 pb-6">
                   {/* Title */}
-                  <a
+                  <Link
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
-                    href="#0">
+                    href="/proizvodi-i-usluge?category=promotivni-materijali">
                     Upaljači + tisak
-                  </a>
+                  </Link>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
@@ -166,11 +166,11 @@ export default function Carousel() {
                 {/* White box */}
                 <div className="grow rounded-b-lg bg-white px-4 pb-6">
                   {/* Title */}
-                  <a
+                  <Link
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
-                    href="#0">
+                    href="/proizvodi-i-usluge?category=naljepnice-i-grafika">
                     Naljepnice za proizvode
-                  </a>
+                  </Link>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
@@ -192,11 +192,11 @@ export default function Carousel() {
                 {/* White box */}
                 <div className="grow rounded-b-lg bg-white px-4 pb-6">
                   {/* Title */}
-                  <a
+                  <Link
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
-                    href="#0">
+                    href="/proizvodi-i-usluge?category=promotivni-materijali">
                     Rokovnici + tisak
-                  </a>
+                  </Link>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"
@@ -218,11 +218,11 @@ export default function Carousel() {
                 {/* White box */}
                 <div className="grow rounded-b-lg bg-white px-4 pb-6">
                   {/* Title */}
-                  <a
+                  <Link
                     className="inline-block font-cabinet-grotesk mt-4 font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline"
-                    href="#0">
+                    href="/proizvodi-i-usluge?category=promotivni-materijali">
                     Majice s tiskom
-                  </a>
+                  </Link>
                   <div>
                     <Link
                       className="btn-sm rounded-lg mt-6 text-white bg-blue-500 hover:bg-blue-600 w-full shadow-sm"

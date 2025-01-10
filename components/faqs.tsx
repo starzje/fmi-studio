@@ -1,8 +1,8 @@
 export default function Faqs() {
   return (
-    <section>
+    <section className="bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-b border-gray-100">
+        <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="pb-12 md:pb-20">
             <h2 className="h2 font-cabinet-grotesk">Česta pitanja</h2>
